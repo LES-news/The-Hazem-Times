@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center; /* Center all text by default */
 }
 
 header {
     background-color: #4CAF50;
     color: white;
     padding: 20px;
-    text-align: center;
 }
 
 nav ul {
@@ -37,6 +37,8 @@ h1 {
 }
 
 main {
+    max-width: 800px; /* Set a maximum width for the main content */
+    margin: 0 auto; /* Center the main content */
     padding: 20px;
 }
 
@@ -54,6 +56,13 @@ article {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    display: block; /* Center images */
+    margin: 0 auto; /* Center images */
+}
+
 footer {
     text-align: center;
     padding: 20px;
@@ -63,3 +72,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
