@@ -1,61 +1,42 @@
+
 /* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text color */
-    text-align: center; /* Center everything */
+    background-color: #f4f4f4;
+    color: #333; /* Default text color */
+    text-align: center;
 }
 
 header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+/* Dark Mode Styles */
+body.dark {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+header.dark {
     background-color: #1a1a1a; /* Dark header background */
-    color: white;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-h1 {
-    margin: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-h2 {
-    color: #e0e0e0; /* Light color for headings */
 }
 
 article {
     background-color: #1f1f1f; /* Dark article background */
     color: #e0e0e0; /* Light article text */
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
+h2.dark {
+    color: #e0e0e0; /* Light color for headings in dark mode */
+}
+
+footer.dark {
     background-color: #1a1a1a; /* Dark footer background */
     color: #e0e0e0; /* Light footer text */
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
+
+/* Other styles remain the same */
