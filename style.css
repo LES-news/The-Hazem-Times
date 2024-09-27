@@ -1,13 +1,15 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    text-align: center; /* Center all text by default */
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    text-align: center; /* Center everything */
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1a1a1a; /* Dark header background */
     color: white;
     padding: 20px;
 }
@@ -19,17 +21,12 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 h1 {
@@ -37,39 +34,28 @@ h1 {
 }
 
 main {
-    max-width: 800px; /* Set a maximum width for the main content */
-    margin: 0 auto; /* Center the main content */
     padding: 20px;
 }
 
 h2 {
-    color: #333;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 10px;
+    color: #e0e0e0; /* Light color for headings */
 }
 
 article {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
+    background-color: #1f1f1f; /* Dark article background */
+    color: #e0e0e0; /* Light article text */
+    margin: 10px 0;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-img {
-    max-width: 100%; /* Make images responsive */
-    height: auto;
-    display: block; /* Center images */
-    margin: 0 auto; /* Center images */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #1a1a1a; /* Dark footer background */
+    color: #e0e0e0; /* Light footer text */
     position: relative;
     bottom: 0;
     width: 100%;
 }
-
