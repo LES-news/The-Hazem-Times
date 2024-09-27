@@ -15,7 +15,6 @@
                 <li><a href="#events">Events</a></li>
                 <li><a href="#spotlight">Member Spotlight</a></li>
                 <li><a href="#donate">Donate</a></li>
-                <li><button id="toggle-theme">Toggle Dark Mode</button></li> <!-- Dark mode toggle -->
             </ul>
         </nav>
     </header>
@@ -61,24 +60,5 @@
     <footer>
         <p>&copy; 2024 The Hazem Times. All rights reserved.</p>
     </footer>
-
-    <script>
-        const toggleButton = document.getElementById('toggle-theme');
-        const body = document.body;
-
-        toggleButton.addEventListener('click', () => {
-            body.classList.toggle('dark'); // Toggle dark mode class
-            const header = document.querySelector('header');
-            const footer = document.querySelector('footer');
-            const articles = document.querySelectorAll('article');
-            const h2s = document.querySelectorAll('h2');
-
-            // Toggle class for header, footer, and h2s
-            header.classList.toggle('dark');
-            footer.classList.toggle('dark');
-            h2s.forEach(h2 => h2.classList.toggle('dark'));
-            articles.forEach(article => article.classList.toggle('dark'));
-        });
-    </script>
 </body>
 </html>
